@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cagridurmus/Projects/my-app/serverapp/serverapp.csproj": {}
+  },
+  "projects": {
+    "/Users/cagridurmus/Projects/my-app/serverapp/serverapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cagridurmus/Projects/my-app/serverapp/serverapp.csproj",
+        "projectName": "serverapp",
+        "projectPath": "/Users/cagridurmus/Projects/my-app/serverapp/serverapp.csproj",
+        "packagesPath": "/Users/cagridurmus/.nuget/packages/",
+        "outputPath": "/Users/cagridurmus/Projects/my-app/serverapp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cagridurmus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
